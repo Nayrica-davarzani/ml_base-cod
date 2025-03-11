@@ -1,0 +1,5 @@
+create vm:python -m venv learning_vm
+active:.\learning_vm\Scripts\activate
+deactive:deactivate
+version:python --version
+pip install numpy scikit-learn -learn pandas matplotlib
